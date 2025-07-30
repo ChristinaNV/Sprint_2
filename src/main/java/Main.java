@@ -7,9 +7,9 @@ import service.ShoppingCart;
 public class Main {
     public static void main (String[] args) {
         Food[] products = {
-                new Meat(5, 100, false),
-                new Apple(10, 50, true, Colour.red),
-                new Apple(8, 60, true, Colour.green)
+                new Meat(5, 100),
+                new Apple(10, 50, Colour.RED),
+                new Apple(8, 60, Colour.GREEN)
         };
         ShoppingCart cart = new ShoppingCart(products);
 
